@@ -16,7 +16,7 @@ function Cats() {
   return (
     <div>
       <div className="h-16 flex items-center justify-center z-10 w-full">
-        <h1 className="text-3xl font-bold text-slate-700">Cute Cats</h1>
+        <h1 className="text-3xl font-bold text-slate-700">Cat List :</h1>
       </div>
       <div className="flex flex-wrap justify-center">
         {cats.map((cat) => (
